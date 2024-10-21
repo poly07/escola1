@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>escola</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 110%;
+}
+
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("ACC.jpg");
+  min-height: 105%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-pink">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">MINHAS LEMBRANÇAS </a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">LEMBRANÇAS</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">PASSEIO</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">PRESENTE</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small"></div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Melhor<br>Turma</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">15 Adr street, 5015</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">LEMBRANÇAS</span></h5>
+    <p>Do 6º ao 9º ano, quase não me lembro de nada, especialmente do 8º e 9º, porque a pandemia chegou e tivemos que ficar em casa. Minha turma era a mesma durante esse período, apenas mudando algumas pessoas que entravam a cada ano. No entanto, o 1º ano foi completamente diferente, já que eu estudava à tarde e mudei para o turno da manhã. Além disso, separaram todos os alunos, nos colocando em salas aleatórias. Mesmo assim, consegui fazer boas amizades. Foi nesse período que me aproximei do chris. Apesar de sempre estudarmos juntos antes, nunca tínhamos conversado. De repente, nos tornamos melhores amigos.
+    </p>
+    <p>Tive bons momentos no 1º ano, mas as lembranças são vagas. No final daquele ano, tivemos que escolher entre a área de exatas ou humanas, o que resultou em uma nova separação da turma. No 2º ano, caí em uma sala com poucas pessoas que eu conhecia, mas, por sorte, eu e a Chris ficamos juntos na mesma sala novamente. Esse ano foi marcado por altos e baixos. Não tínhamos educação física, então fazíamos bagunça. Também houve confusão: uma vez, alguns meninos brigaram na aula e a professora saiu chorando. Apesar dos problemas, vivemos muitos momentos bons.</p>
+    <p></p>
+    <img src="turma.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Ultima foto do 2 ano:</strong> 05/12/23, MORELLI</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">PASSEIO</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div>
+          <p>Esse passeio foi no dia 26 de julho de 2023, o melhor que já fiz. Essa data se tornou ainda mais especial para mim, pois foi nesse dia que eu e o Chris começamos a namorar. O passeio foi incrível e muito divertido. Cada momento foi marcante, como quando entramos na caverna e tomamos banho na gruta. A trilha de barro também foi uma aventura, todos molhados, quase caindo, e alguns até caíram, o que rendeu muitas risadas.
+
+            Teve a hora em que paramos para comer e começamos a conversar, e perguntamos sobre a vida do guia que nos acompanhou, um cara muito gente boa. No ônibus, na volta, com a caixinha de som, estávamos todos super felizes, cantando, pulando, e fazendo bagunça, até a professora pegar a caixa e acabar com a festa. Mesmo assim, continuamos zoando e nos divertindo.
+            
+            Mas o momento mais especial de todos foi quando eu e o Chris percebemos os sentimentos que um tinha pelo outro, e hoje somos muito felizes juntos. </p>
+        </div>
+      </a>
+    </div>
+  
+    <img src="foto.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+    <p><strong> Na saida da caverna: </strong> 26/07/23 </p>
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Este ano </span></h5>
+    <p>Este ano está sendo muito bom. Eu imaginava que o 3º ano seria mais difícil do que o normal, mas não foi bem assim. Uma das coisas que estou gostando é o trabalho da Cieli, de fazer uma maquete de icosaedro. A única coisa que achei ruim é que ainda não fizemos nenhuma excursão, mas o ano está sendo incrível e cheio de lembranças inesquecíveis. Vou sempre lembrar dessa turma, a melhor em que já estive, com momentos cheios de alegria. Estou sempre rindo, mas o melhor de tudo é que meu namorado está na mesma sala, vivendo esses momentos maravilhosos comigo. E, para deixar claro, eu amo muito ele!</p>
+    <img src="comida.jpg" class="w3-image" style="width:100%">
+    <p><strong> Comida muito boa 👍🏻: 20/09/24 </strong>  </p>
+  </div>
+</div>
+<style>
+  .image-row {
+    display: flex;
+    justify-content: space-around; /* Espaçamento entre as imagens */
+    align-items: center; /* Alinha as imagens verticalmente */
+    margin-top: 20px;
+  }
+
+  .image-row img {
+    width: 200px; /* Largura das imagens */
+    height: auto; /* Mantém a proporção original da imagem */
+  }
+</style>
+</head>
+<body>
+
+<div class="image-row">
+<img src="passeio.jpg" alt="Imagem 1">
+<img src="nois.jpg" alt="Imagem 2">
+<img src="poly.jpg" alt="Imagem 3">
+<img src="ri.jpg" alt="Imagem 4">
+</div>
+
+<!-- End page content -->
+</div>
+
+</body>
+</html>
